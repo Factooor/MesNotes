@@ -1,0 +1,23 @@
+CREATE TABLE `recu`
+(
+       idRecu INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+       MonEnseigne VARCHAR(80),
+       RaisonSociale VARCHAR(80),
+       Ville VARCHAR(75),
+       Telephone VARCHAR(18),
+       Designation VARCHAR(55),
+       Note BLOB,
+       Date DATETIME,
+       TauxTva VARCHAR(6),
+       MontantHt FLOAT,
+       MontantTva FLOAT,
+       MontantTtc FLOAT,
+       ModePayement VARCHAR(25)
+)
+CREATE TABLE `raisonSoc`
+(
+       idRais INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+       MonEnseigne VARCHAR(80),
+       Siret VARCHAR(25),
+       TVARS VARCHAR(30)
+)
