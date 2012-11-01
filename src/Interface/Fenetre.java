@@ -305,7 +305,7 @@ public class Fenetre extends javax.swing.JFrame {
                 .addGap(17, 17, 17))
         );
 
-        jPanel9.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel9.setBackground(new java.awt.Color(204, 51, 0));
         jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder("Entres les montants"));
 
         jLabel16.setText("Montant HT ");
