@@ -1,7 +1,7 @@
 /**
  * @file Fenetre.java
  * @brief classe pour pour lancer l'application
- * @author Stefan (devgit@factooor.fr)
+ * @author Stefan (contact@factooor.fr)
  * @date 22 mai 2012
  * @version 1.0
  * @details cette classe contient toutes les fontions pour utiliser le programme
@@ -24,7 +24,7 @@ public class Fenetre extends javax.swing.JFrame {
     /**
     * @brief Déclaration et initialisation des variables 
     */
-    private String requete = "";
+    private String requete = ""; /*pour remettre a zéro*/
     private String T;
     private String TVA;
     private String TVAT;
